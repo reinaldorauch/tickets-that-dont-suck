@@ -1,0 +1,47 @@
+{
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{projectRoot}/dist"
+      ]
+    },
+    "format": {
+      "dependsOn": []
+    },
+    "start": {
+      "dependsOn": []
+    },
+    "start:dev": {
+      "dependsOn": []
+    },
+    "start:debug": {
+      "dependsOn": []
+    },
+    "start:prod": {
+      "dependsOn": []
+    },
+    "lint": {
+      "dependsOn": []
+    },
+    "test": {
+      "cache": true,
+      "dependsOn": []
+    },
+    "test:watch": {
+      "dependsOn": []
+    },
+    "test:cov": {
+      "dependsOn": []
+    },
+    "test:debug": {
+      "dependsOn": []
+    },
+    "test:e2e": {
+      "dependsOn": []
+    }
+  }
+}
